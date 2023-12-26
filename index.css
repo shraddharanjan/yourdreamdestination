@@ -1,0 +1,32 @@
+#logo img{
+    height: 50px;
+    width: 50px
+
+}
+
+#phonelogo img {
+    height: 50px;
+    width: 50px
+}
+
+.titlelogo img{
+    height: 50px;
+    width: auto;
+}
+
+.card-img-top{
+    height: 500px;
+    display: block;
+    object-fit: cover;
+}
+
+h5.card-title {
+    margin: 0; /* Remove margin for the heading */
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+
+
+
