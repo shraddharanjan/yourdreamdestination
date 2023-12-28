@@ -26,9 +26,9 @@ body {
     display: flex;
     align-items: center;
     background-color: white;
-    position: sticky;  /* added space between and made nav bar sticky*/
-    top:0;
-    justify-content: space-between;  
+    position: sticky; /* added space between and made nav bar sticky*/
+    top: 0;
+    justify-content: space-between;
 }
 
 .mainlogo {
@@ -76,16 +76,34 @@ footer {
 /* changed class names */
 
 .countryTitle {
-    font-size: 38px;
-
+    font-size: 45px;
+    font-weight: bold;
 }
 
-.countrySubheading {
-    font-size: 16px;
+.primary-btn {
+    background-color: #5a87c1;
+    border-radius: 10px;
+    border: 0px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 12px 21px;
+    text-decoration: none;
 }
 
-.countryPic img{
-    height: 700px;
+.primary-btn:hover {
+    background-color: #4d74a8;
+}
+
+.primary-btn:active {
+    position: relative;
+    top: 1px;
+}
+
+.countryPic img {
+    height: 500px;
     max-height: 100%;
     width: 100%;
     max-width: 100%;
@@ -101,7 +119,7 @@ footer {
     color: white;
 }
 
-.countryTextWhite{
+.countryTextWhite {
     color: black;
 }
 
@@ -109,3 +127,6 @@ footer {
     width: 2980px;
 }
 
+.container {
+    font-weight: bold;
+}
