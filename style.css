@@ -130,3 +130,15 @@ footer {
 .container {
     font-weight: bold;
 }
+
+/* about us page styling */
+
+.teaminfo {
+    font-size: 25px;
+    text-align: center;
+    padding: 5%;
+}
+
+.teamhead {
+    line-height: 3;
+}
