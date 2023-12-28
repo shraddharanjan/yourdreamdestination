@@ -4,6 +4,8 @@ body {
     font-family: "Raleway", sans-serif !important;
     margin: 0;
     padding: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .logo {
@@ -71,6 +73,7 @@ footer {
 .intro {
     text-align: center;
     font-size: 30px;
+    /* need to space out intro paragraph from video */
 }
 
 /* changed class names */
