@@ -40,8 +40,6 @@ body {
     margin-left: 200px;
     margin-right: 200px;
     width: 1600px;
-    z-index: auto;
-    mix-blend-mode: multiply;
 }
 
 .mainvideo {
