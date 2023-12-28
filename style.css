@@ -26,6 +26,9 @@ body {
     display: flex;
     align-items: center;
     background-color: white;
+    position: sticky;  /* added space between and made nav bar sticky*/
+    top:0;
+    justify-content: space-between;  
 }
 
 .mainlogo {
@@ -70,12 +73,19 @@ footer {
     font-size: 30px;
 }
 
+/* changed class names */
+
 .countryTitle {
     font-size: 38px;
+
 }
 
-.country img {
-    height: 720px;
+.countrySubheading {
+    font-size: 16px;
+}
+
+.countryPic img{
+    height: 700px;
     max-height: 100%;
     width: 100%;
     max-width: 100%;
@@ -86,46 +96,16 @@ footer {
     object-fit: cover;
 }
 
-.country {
-    padding-left: 0;
-    padding-right: 0;
-    padding: 0;
-    width: 1466px;
-}
-
 .countryTextGrey {
     background-color: #808080;
-    margin-bottom: 0;
-    margin-top: 0;
-    margin-left: 0;
-}
-
-.countryTextWhite {
-    margin-bottom: 0;
-    margin-top: 0;
-}
-
-.countryTextGrey {
     color: white;
-    margin-bottom: 0;
-    margin-top: 0;
-    font-size: 38px;
 }
 
-.countryTextWhite h2 {
+.countryTextWhite{
     color: black;
-    font-size: 38px;
 }
 
 .menuContainer {
     width: 2980px;
-    width: auto;
 }
 
-.countryText {
-    width: 1000px;
-}
-
-.countrySubheading {
-    font-size: 16px;
-}
