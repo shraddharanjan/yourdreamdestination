@@ -72,7 +72,8 @@ footer {
 .intro {
     text-align: center;
     font-size: 30px;
-    /* need to space out intro paragraph from video */
+    margin-top: 450px;
+    margin-bottom: 50px;
 }
 
 /* changed class names */
