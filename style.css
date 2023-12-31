@@ -27,19 +27,20 @@ body {
 .topnav {
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: whitesmoke;
     position: sticky; /* added space between and made nav bar sticky*/
     top: 0;
     justify-content: space-between;
+    z-index: 1;
 }
 
 .mainlogo {
     position: absolute;
-    display: block;
-    margin-top: 200px; /* how to make logo centre ad not change colour on cenrtain clips*/
+    margin-top: 50px;
     margin-left: 200px;
     margin-right: 200px;
-    width: 1600px;
+    width: 78%;
+    z-index: 0;
 }
 
 .mainvideo {
@@ -143,3 +144,5 @@ footer {
 .teamhead {
     line-height: 3;
 }
+
+/* country page styling */
