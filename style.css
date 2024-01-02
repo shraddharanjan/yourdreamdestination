@@ -72,8 +72,10 @@ footer {
 .intro {
     text-align: center;
     font-size: 30px;
-    margin-top: 450px;
-    margin-bottom: 50px;
+    margin-top: 430px;
+    margin-bottom: 33px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 /* changed class names */
