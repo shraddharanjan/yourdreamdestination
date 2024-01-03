@@ -13,3 +13,27 @@ function onClickButton(countryId) {
         }
     }
 }
+
+const sightsComponents = document.querySelectorAll('.sight');
+
+sightsComponents.forEach((sightComponent) => {
+  const sightItems = sightComponent.getElementsByTagName('li');
+
+
+  for (let i = 0; i < sightItems.length; i++) {
+    const sights = sightItems[i];
+    sights.textContent = sights.textContent + "🚀";
+  }
+});
+
+const foodComponents = document.querySelectorAll('.food');
+
+foodComponents.forEach((foodComponent) => {
+  const foodItems = foodComponent.getElementsByTagName('li');
+
+
+  for (let i = 0; i < foodItems.length; i++) {
+    const food = foodItems[i];
+    food.textContent = food.textContent + "🍔";
+  }
+});
