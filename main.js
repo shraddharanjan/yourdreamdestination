@@ -14,14 +14,3 @@ function onClickButton(countryId) {
     }
 }
 
-const foodComponents = document.querySelectorAll('.food');
-
-foodComponents.forEach((foodComponent) => {
-  const foodItems = foodComponent.getElementsByTagName('li');
-
-
-  for (let i = 0; i < foodItems.length; i++) {
-    const food = foodItems[i];
-    food.textContent = food.textContent + "🍔";
-  }
-});
