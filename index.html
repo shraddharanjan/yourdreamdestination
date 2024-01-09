@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="./index.css" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Dream Destination</title>
+        <link rel="shortcut icon" type="image/png" href="image/favicon.png" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+    </head>
+
+    <body>
+        <nav class="topnav">
+            <a class="active" href="index.html">
+                <img src="Asset 4.png" class="logo" alt="Cloud and moon inside a map location icon" />
+            </a>
+            <a class="navlink" href="about.html">ABOUT</a>
+            <a class="navlink" href="australia.html">AUSTRALIA</a>
+            <a class="navlink" href="japan.html">JAPAN</a>
+            <a class="navlink" href="finland.html">FINLAND</a>
+            <a class="navlink" href="switzerland.html">SWITZERLAND</a>
+        </nav>
+        <section class="titlelogo">
+            <img src="Asset 5.png" class="mainlogo" alt="Dream Destination" />
+
+            <div>
+                <video class="mainvideo" loop autoplay>
+                    <source src="Your Dream Destination Video Resize V2.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+
+        <div class="intro">
+            <p>
+                Welcome to Dream Destination, where we've listed our dream destinations. From the cherry blossoms in
+                Japan, the breathtaking Alps in Switzerland, the cozy vibes of Finland, or the wild landscapes of
+                Australia – we've got the inside track on all these amazing places. The world awaits, and your dream
+                destination is just a click away!
+            </p>
+        </div>
+
+        <main>
+            <!--bootstap grid system for australia, japan, finland, switzerland-->
+            <div class="container-fluid menuContainer text-center h-100">
+                <div class="row mt-0 align-items-center countryTextGrey my-0 py-0">
+                    <div class="col px-0">
+                        <h2 class="countryTitle">AUSTRALIA</h2>
+                        <button class="primary-btn" onclick="onClickButton('australiaButton')">EXPLORE</button>
+                    </div>
+                    <div class="col countryPic px-0">
+                        <img src="australia_header.jpg" alt="An image of Australia" />
+                    </div>
+                </div>
+                <div class="row mt-0 countryTextWhite align-items-center my-0 py-0">
+                    <div class="col countryPic px-0">
+                        <img src="japan_header.jpg" alt="An image of Japan" />
+                    </div>
+                    <div class="col countryText px-0">
+                        <h2 class="countryTitle">JAPAN</h2>
+                        <button class="primary-btn" onclick="onClickButton('japanButton')">EXPLORE</button>
+                    </div>
+                </div>
+                <div class="row mt-0 align-items-center countryTextGrey my-0 py-0">
+                    <div class="col px-0">
+                        <h2 class="countryTitle">FINLAND</h2>
+                        <button class="primary-btn" onclick="onClickButton('finlandButton')">EXPLORE</button>
+                    </div>
+                    <div class="col countryPic px-0">
+                        <img src="finland.png" alt="An image of Finland" />
+                    </div>
+                </div>
+                <div class="row mt-0 align-items-center countryTextWhite my-0 py-0">
+                    <div class="col countryPic px-0">
+                        <img src="switzerland.jpg" alt="An image of Switzerland" />
+                    </div>
+                    <div class="col countryText px-0">
+                        <h2 class="countryTitle">SWITZERLAND</h2>
+                        <button class="primary-btn" onclick="onClickButton('switzerlandButton')">EXPLORE</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <section class="contactus">
+                <p>CONTACT US</p>
+                <p>contact@dreamdestination.com</p>
+                <p>Royal Oak Passage</p>
+                <p>Winchester</p>
+                <p>Hampshire</p>
+                <p>SO23 9AU</p>
+                <p>United Kingdom</p>
+                <p><img src="phone.png" class="phonelogo" alt="phone icon" />01962 842701</p>
+            </section>
+
+            <section class="subscribe">
+                <!--https://www.w3schools.com/howto/howto_css_newsletter.asp-->
+                <form action="action_page.php">
+                    <div class="container">
+                        <h2>Discover More</h2>
+                        <p>By Subscribing to our Newsletter</p>
+                    </div>
+
+                    <div class="container" style="background-color: #808080">
+                        <input type="text" placeholder="Name" name="name" required />
+                        <input type="text" placeholder="Email address" name="mail" required />
+                        <label> <input type="checkbox" checked="checked" name="subscribe" /> Daily Newsletter </label>
+                    </div>
+
+                    <div class="container">
+                        <input type="submit" value="Subscribe" />
+                    </div>
+                </form>
+            </section>
+        </footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"
+        ></script>
+        <script src="index.js"></script>
+    </body>
+</html>
